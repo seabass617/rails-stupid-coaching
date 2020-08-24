@@ -1,0 +1,56 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$navajo: #FFDCAD;
+$blue: #2A44A2;
+
+.question {
+    border-left: 3px solid grey;
+    padding-left : 10px;
+    margin-left: 15px;
+}
+
+.answer {
+    border-left: 3px solid grey;
+    padding-left : 10px;
+    margin-left: 15px;
+    background: $navajo;
+}
+
+.link { 
+    text-decoration: none; 
+    font-size: 14px;
+}
+
+label  {
+    display:block;
+    margin-bottom: 10px;
+}
+
+h1 { 
+    padding-left: 10px;
+}
+
+form {
+    padding-left: 10px; 
+}
+
+#input{
+    padding: 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-right: 0px;
+    border: 2px solid rgb(204, 204, 204);
+}
+
+#submit{
+    padding: 5px;
+    background: $blue;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-left: 0px;
+    border: none;
+
+}
